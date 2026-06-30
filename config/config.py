@@ -24,3 +24,10 @@ LOGS = f"{PROJECT_ROOT}/logs"
 AUDIT = f"{PROJECT_ROOT}/audit"
 CHECKPOINTS = f"{PROJECT_ROOT}/checkpoints"
 EXPORTS = f"{PROJECT_ROOT}/exports"
+
+# Spark Settings
+APP_NAME = "Retail Lakehouse Platform"
+
+# File Formats
+SOURCE_FORMAT = "csv"
+TARGET_FORMAT = "parquet"
